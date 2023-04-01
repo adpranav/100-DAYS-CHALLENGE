@@ -3,8 +3,6 @@
 
 /*
 
-	Following is the Binary Tree Node class structure.
-
 	class BinaryTreeNode<T> {
 		T data;
 		BinaryTreeNode<T> left;
@@ -22,7 +20,6 @@
 public class Solution {
 
 	public static int getSum(BinaryTreeNode<Integer> root) {
-		//Your code goes here.
 		if(root==null){
 			return 0;
 		}
